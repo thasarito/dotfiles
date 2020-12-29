@@ -13,4 +13,12 @@ end
 
 exports.openchrome = function() openByApplescript("/Applications/Google Chrome.app") end
 
+exports.openiterm = function() 
+  return hs.osascript.applescript([[
+    tell application "iTerm2"
+      create window with default profile
+    end tell
+  ]])
+ end
+
 return exports

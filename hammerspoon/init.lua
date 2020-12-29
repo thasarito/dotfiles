@@ -66,6 +66,9 @@ hyper.bindKey("right", function()
 end)
 
 -- binding app to hyper --
-hyper.bindKey("c", function()
-  app.openchrome()
+hyper.bindKey("c", app.openchrome)
+
+
+hyper.bindKey("t", function()
+  app.openiterm()
 end)
