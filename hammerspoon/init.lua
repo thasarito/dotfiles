@@ -12,6 +12,9 @@ hyper.install('F18')
 -- tiling --
 local tile = require('tiling')
 
+-- app --
+local app = require('application')
+
 -- binding hyper to tiling --
 hyper.bindKey("l", function()
   tile.tileWindow(tile.screenPositions.leftThird)
@@ -60,4 +63,9 @@ end)
 
 hyper.bindKey("right", function()
   tile.tileWindow(tile.screenPositions.rightHalf)
+end)
+
+-- binding app to hyper --
+hyper.bindKey("c", function()
+  app.openchrome()
 end)
