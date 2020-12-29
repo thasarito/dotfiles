@@ -1,7 +1,10 @@
 #!/usr/bin/env zsh
 
+rm -rf ~/.hammerspoon
 ln -s ~/dotfiles/hammerspoon ~/.hammerspoon
 
+rm -rf ~/.config/git
 ln -s ~/dotfiles/git ~/.config/git
 
+rm -rf ~/.aliases
 ln -s ~/dotfiles/aliases ~/.aliases
