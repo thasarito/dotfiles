@@ -3,3 +3,5 @@
 ln -s ~/dotfiles/hammerspoon ~/.hammerspoon
 
 ln -s ~/dotfiles/git ~/.config/git
+
+ln -s ~/dotfiles/aliases ~/.aliases
