@@ -4,3 +4,5 @@
 
 [includeIf "gitdir:~/bit/"]
 	path = ~/bit/.gitconfig
+[core]
+	excludesfile = /Users/thasarito/.gitignore
