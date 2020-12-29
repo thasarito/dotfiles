@@ -1,3 +1,4 @@
 #!/usr/bin/env zsh
 
 ln -s ~/dotfiles/hammerspoon ~/.hammerspoon
+ln -s ~/dotfiles/gitconfig ~/.gitconfig

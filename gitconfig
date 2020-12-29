@@ -1,0 +1,6 @@
+[user]
+	name = "thasarito"
+	email = "thasarit.pysr@gmail.com"
+
+[includeIf "gitdir:~/bit/"]
+	path = ~/bit/.gitconfig
