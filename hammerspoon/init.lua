@@ -33,6 +33,15 @@ hyper.bindKey(",", function()
   tile.tileWindow(tile.screenPositions.bottomLeftThird)
 end)
 
+
+hyper.bindKey("[", function()
+  tile.tileWindow(tile.screenPositions.topCenterThird)
+end)
+
+hyper.bindKey(".", function()
+  tile.tileWindow(tile.screenPositions.bottomCenterThird)
+end)
+
 hyper.bindKey("]", function()
   tile.tileWindow(tile.screenPositions.topRightThird)
 end)

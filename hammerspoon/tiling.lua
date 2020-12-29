@@ -45,6 +45,16 @@ screenPositions.bottomRightThird = {
   w = SMALL_TILE, h = HALF_SIZE
 }
 
+screenPositions.topCenterThird = {
+  x = SMALL_TILE, y = 0,
+  w = LARGE_TILE, h = HALF_SIZE
+}
+
+screenPositions.bottomCenterThird = {
+  x = SMALL_TILE, y = HALF_SIZE,
+  w = LARGE_TILE, h = HALF_SIZE
+}
+
 screenPositions.leftHalf = {
   x = 0, y = 0,
   w = HALF_SIZE, h = GRID_SIZE
