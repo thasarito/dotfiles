@@ -72,3 +72,15 @@ hyper.bindKey("c", app.openchrome)
 hyper.bindKey("t", function()
   app.openiterm()
 end)
+
+-- bit.studio work script --
+hyper.bindKey("b", function()
+  app.openchromewithwork()
+  tile.tileWindow(tile.screenPositions.bottomRightThird)
+
+  app.openchrome()
+  tile.tileWindow(tile.screenPositions.leftThird)
+
+  app.openiterm()
+  tile.tileWindow(tile.screenPositions.topRightThird)
+end)
