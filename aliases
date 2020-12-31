@@ -1,4 +1,5 @@
 # alias for active project
+alias 2020='cd ~/work/2020'
 alias dhe='cd ~/work/2020/digital_humanities_eda'
 alias sl1='cd ~/bit/2020/sign_language_phase_1'
 alias utb='cd ~/work/2020/urban_transit_blog'
