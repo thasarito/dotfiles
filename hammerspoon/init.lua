@@ -15,6 +15,9 @@ local tile = require('tiling')
 -- app --
 local app = require('application')
 
+-- password --
+local password = require('password')
+
 -- binding hyper to tiling --
 hyper.bindKey("l", function()
   tile.tileWindow(tile.screenPositions.leftThird)
@@ -83,4 +86,9 @@ hyper.bindKey("b", function()
 
   app.openiterm()
   tile.tileWindow(tile.screenPositions.topRightThird)
+end)
+
+-- bit studio password --
+hyper.bindKey("m", function()
+  hs.eventtap.keyStrokes(password.bit.miro)
 end)
